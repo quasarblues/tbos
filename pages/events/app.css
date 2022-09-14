@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(18, 18, 18);
+}
+
+/* .masthead {
+    background-image: url('about_masthead2.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.mast-subheading {
+    font-size: 3.8rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: 'Lato', sans-serif;
+} */
+
+#mainNavbar {
+    width: 100%;
+    background-color: rgba(14, 14, 14, 0.5)
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+    font-family: 'Satisfy', cursive;
+    color: rgb(236, 16, 16);
+    padding-left: 50px;
+}
+
+.nav-item {
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: azure;
+    padding: 0 3px;
+}
+
+.navbar-nav {
+    padding-right: 50px;
+}
+
+section {
+    margin-top: 55px;
+}
+
+.pageheading {
+    font-family: 'Satisfy', cursive;
+    color: azure;
+    font-size: 4rem;
+}
+
+.subheading {
+    font-family: 'Satisfy', cursive;
+    color: rgb(236, 16, 16);
+    font-size: 4rem;
+}
+
+.tagline {
+    font-family: 'Lato', sans-serif;
+    color: azure;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.85rem;
+}
+
+.menu-heading {
+    font-family: 'Lato', sans-serif;
+    color: azure;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+
+
+footer {
+    background-color: rgb(11, 11, 11);
+    color: azure;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+footer a {
+    color: azure;
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer a:hover {
+    color: rgb(236, 16, 16);
+}
+
+span {
+    color: rgb(236, 16, 16);
+}
+
+ul {
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        height: 75vh;
+    }
+
+    section {
+        margin-top: 55px;
+    }
+}
