@@ -9,7 +9,7 @@ body {
 }
 
 .mast-subheading {
-    font-size: 3.8rem;
+    font-size: 3.7rem;
     color: white;
     text-shadow: 2px 2px 2px black;
     font-family: 'Lato', sans-serif;
@@ -76,7 +76,7 @@ footer {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
-    margin-top: 30px;
+    margin-top: 75px;
 }
 
 footer a {
@@ -97,11 +97,14 @@ span {
 }
 
 @media (max-width: 768px) {
-    .masthead {
-        height: 75vh;
+
+    .mast-subheading {
+        font-size: 3.0rem;
     }
 
     section {
         margin-top: 55px;
     }
+
+
 }

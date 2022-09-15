@@ -40,9 +40,6 @@ body {
     padding-right: 50px;
 }
 
-/* section {
-    padding-top: 100px;
-} */
 
 .subheading {
     font-family: 'Satisfy', cursive;
@@ -76,7 +73,7 @@ footer {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
-    margin-top: 30px;
+    margin-top: 75px;
 }
 
 footer a {
@@ -101,11 +98,12 @@ ul {
 }
 
 @media (max-width: 768px) {
-    .masthead {
-        height: 75vh;
+
+    .mast-subheading {
+        font-size: 3.0rem;
     }
 
-    /* section {
-        padding-top: 55px;
-    } */
+    #mainNavbar {
+        background-color: rgba(14, 14, 14, 0.9);
+    }
 }

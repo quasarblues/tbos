@@ -2,18 +2,6 @@ body {
     background-color: rgb(18, 18, 18);
 }
 
-/* .masthead {
-    background-image: url('about_masthead2.jpg');
-    background-size: cover;
-    height: 100vh;
-}
-
-.mast-subheading {
-    font-size: 3.8rem;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    font-family: 'Lato', sans-serif;
-} */
 
 #mainNavbar {
     width: 100%;
@@ -41,7 +29,7 @@ body {
 }
 
 section {
-    margin-top: 55px;
+    margin-top: 45px;
 }
 
 .pageheading {
@@ -107,11 +95,13 @@ ul {
 }
 
 @media (max-width: 768px) {
-    .masthead {
-        height: 75vh;
+
+    .mast-subheading {
+        font-size: 3.0rem;
     }
 
-    section {
-        margin-top: 55px;
+    #mainNavbar {
+        background-color: rgba(14, 14, 14, 0.5)
     }
+
 }
